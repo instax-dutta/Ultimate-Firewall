@@ -9,7 +9,12 @@ For Applying Aegis's Specified Firewall Settings for specified port
 ```
 git clone https://github.com/instax-dutta/Ultimate-Firewall && cd Ultimate-Firewall && bash aegis.sh
 ```
-For Applying Basic Ddos Prot For minecraft server
+Single Command to Directly Protect 25565 port only
 ```
-git clone https://github.com/instax-dutta/Ultimate-Firewall && cd Ultimate-Firewall && bash minecraft.sh
+git clone https://github.com/instax-dutta/Ultimate-Firewall && cd Ultimate-Firewall && bash mcproxy.sh
+```
+
+To remove all firewall rules and ip table rules
+```
+git clone https://github.com/instax-dutta/Ultimate-Firewall && cd Ultimate-Firewall && bash reset.sh
 ```
