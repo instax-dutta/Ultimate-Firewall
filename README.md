@@ -1,5 +1,7 @@
 # Ultimate-Firewall
-A Set of IP table rules for ddos mitigation
+A collection of IP table rules to SafeGuard your Minecraft server from ddos attacks
+
+Cheapest Minecraft Hosting - https://racernodes.host
 
 For Applying Basic Prot
 ```
