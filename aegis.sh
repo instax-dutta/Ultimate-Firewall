@@ -3,7 +3,7 @@
 iptables=/sbin/iptables
 
 # Which port should we protect against attacks?
-port=25565
+read -p "Which Port Your Aegis is Running :" port
 
 # Should we block linux connections? It can block a lot of attacks (with proxies)
 block_linux_connections=true
