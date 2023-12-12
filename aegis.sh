@@ -1,17 +1,12 @@
-#Also, please take a look at our readme_aegis.txt, there are also useful firewall/iptables rules!
-
 iptables=/sbin/iptables
 
-# Which port should we protect against attacks?
 read -p "Which Port Your Aegis is Running :" port
 
-# Should we block linux connections? It can block a lot of attacks (with proxies)
 block_linux_connections=true
 
 limit_global_connections=true
 limit_global_connections_max=1
 
-# Limit new connections per second. This definitely helps aegis to stop massive attacks.
 burstconns=50
 
 $iptables -A INPUT -p tcp --dport $port --syn -m limit --limit $burstconns/s -j ACCEPT
