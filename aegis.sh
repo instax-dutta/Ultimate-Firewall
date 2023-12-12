@@ -27,3 +27,4 @@ if $limit_global_connections ; then
 fi
 
 echo "Firewall applied successfully."
+echo "Thanks For Using UltimateFirewall by Abhishek Dash"
