@@ -1,8 +1,6 @@
 # Ultimate-Firewall
 A collection of IP table rules to SafeGuard your Minecraft server from ddos attacks
 
-Cheapest Minecraft Hosting - https://racernodes.host
-
 For Applying Basic Prot
 ```
 git clone https://github.com/instax-dutta/Ultimate-Firewall && cd Ultimate-Firewall && bash Ultimate-Firewall.sh
