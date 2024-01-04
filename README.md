@@ -1,6 +1,6 @@
 # Ultimate-Firewall
 ***A collection of IP table rules to SafeGuard your Minecraft server from ddos attacks***
-[UltimateFirewall](https://i.imgur.com/V6ongwL.png)
+![UltimateFirewall](https://i.imgur.com/V6ongwL.png)
 
 For Applying Basic Prot
 ```
